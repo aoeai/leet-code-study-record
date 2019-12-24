@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/html">
+<head>
+    <div th:replace="common/base :: common_header(meta, links)"></div>
+    <title>Hello, world!</title>
+    <link href="/static/css/signin.css" rel="stylesheet">
+</head>
+<body>
+
+<form class="form-signin" action="/user/registOrLogin" method="post">
+    <img class="mb-4" src="/static/images/logo.png" alt="" width="72" height="72">
+    <div class="alert alert-danger" role="alert"
+    th:text="${errMsg} ? ${errMsg} : '注册请注意：不能修改用户名、密码'"></div>
+    <h1 class="display-5">LeetCode刷题</h1>
+    <input type="text" id="username" name="username" class="form-control" placeholder="用户名,最大30位"  autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" >
+    <button class="btn btn-lg btn-primary btn-block" type="submit">注册或登录</button>
+</form>
+
+<div th:replace="common/base :: bootstrap_need_js_list"></div>
+
+</body>
+</html>

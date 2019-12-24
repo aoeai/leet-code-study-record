@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/html">
+<head>
+    <div th:replace="common/base :: common_header(meta, links)"></div>
+    <title>LeetCode问题列表</title>
+</head>
+<body style="margin-left: 30px">
+
+<div style="height: 20px;"></div>
+
+<form action="/problem/list" method="post">
+    <input type="hidden" id="salt" name="salt" th:value="${form.salt}">
+    <input type="hidden" name="username" th:value="${form.username}">
+    <div class="row">
+        <div class="col">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">题目过滤</span>
+                </div>
+                <input type="text" name="ids" class="form-control" th:value="${form.ids}"
+                       placeholder="输入只想看到的题号，例如：1,2,5">
+                <div class="invalid-feedback">
+                    Please choose a username.
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">几天前</span>
+                </div>
+                <input type="number" class="form-control" placeholder="今天 0；昨天 1。只显示当天数据" min="0"
+                       name="fewDaysAgo"
+                       th:value="${form.fewDaysAgo}"
+                       onkeyup="this.value=this.value.replace(/\D/g,'')"
+                       onafterpaste="this.value=this.value.replace(/\D/g,'')">
+                <div class="invalid-feedback">
+                    Please choose a username.
+                </div>
+            </div>
+        </div>
+        <div class="col-1">
+            <select class="form-control" name="status">
+                <option value="0">当前状态</option>
+                <option th:each="s,sIter : ${T(com.aoeai.lcsr.enums.ProblemStatusEnum).values()}"
+                        th:selected="${s.value == form.status}"
+                        th:if="${s.value != 1}"
+                        th:value="${s.value}" th:text="${s.title}">选择状态
+                </option>
+            </select>
+        </div>
+        <div class="col">
+            <button class="btn btn-primary" type="submit">变换吧！</button>
+            <a class="btn btn-success" th:href="'/problem/list?salt=' + ${form.salt} + '&username=' + ${form.username}">清
+                空</a>
+        </div>
+        <div class="col">
+            <h3>欢迎 <span class="badge badge-secondary" th:text="${form.username}"></span></h3>
+        </div>
+    </div>
+
+
+<div style="height: 20px;"></div>
+
+<table class="table table-striped table-hover">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">标题</th>
+        <th scope="col">难度</th>
+        <th scope="col">刷题次数</th>
+        <th scope="col">当前状态</th>
+        <th scope="col">最后做题时间</th>
+        <th scope="col">操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="p,pIter : ${pagination.records}">
+        <th scope="row"><a th:text="${p.id}" th:href="${p.urlEN}" target="_blank"></a></th>
+        <td><a th:text="${p.problem}" th:href="${p.urlCN}" target="_blank"></a></td>
+        <td th:switch="${p.difficulty}">
+            <button type="button" class="btn btn-success" th:text="${p.difficulty.title}"
+                    th:case="${T(com.aoeai.lcsr.enums.ProblemDifficultyEnum).SIMPLE}">简单
+            </button>
+            <button type="button" class="btn btn-warning" th:text="${p.difficulty.title}"
+                    th:case="${T(com.aoeai.lcsr.enums.ProblemDifficultyEnum).MEDIUM}">中等
+            </button>
+            <button type="button" class="btn btn-danger" th:text="${p.difficulty.title}"
+                    th:case="${T(com.aoeai.lcsr.enums.ProblemDifficultyEnum).DIFFICULT}">困难
+            </button>
+        </td>
+        <td th:id="'doCount' + ${p.id}" th:text="${p.doCount}">1</td>
+        <td>
+            <div class="btn-group">
+                <button th:id="'statusBtn' + ${p.id}" th:text="${p.status}"
+                        type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                    Action
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" th:each="s,sIter : ${T(com.aoeai.lcsr.enums.ProblemStatusEnum).values()}"
+                       th:href="'javascript:changeStatus(' + ${p.id} + ', ' + ${s.value} + ', \'' + ${s.title} + '\')'"
+                       th:text="${s.title}">Action</a>
+                </div>
+            </div>
+        </td>
+        <td th:id="'lastDoTime' + ${p.id}" th:text="${p.lastDoTime}">2019-11-13</td>
+        <td>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal"
+                    th:onclick="'javascript:plusDoCountAsk(' + ${p.id} + ')'">完成+1
+            </button>
+            <!--th:onclick="'javascript:plusDoCount(' + ${p.id} + ')'"-->
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<!--分页-->
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+            <a th:text="${pagination.totalCount} + '条 ' + '共' +  ${pagination.totalPages} + '页'"
+               class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        </li>
+        <li class="page-item disabled"><a class="page-link" href="#"> Go </a></li>
+        <input type="number" class="form-control" placeholder="第N页" min="1" th:max="${pagination.totalPages}"
+               style="width: 110px"
+               name="page"
+               th:value="${pagination.currentPage}"
+               onkeyup="this.value=this.value.replace(/\D/g,'')"
+               onafterpaste="this.value=this.value.replace(/\D/g,'')">
+        <button class="btn btn-primary" type="submit">变换吧！</button>
+    </ul>
+</nav>
+</form>
+
+<div th:replace="common/base :: bootstrap_need_js_list"></div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <input type="hidden" id="problemId">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">又进步了</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                +1 后不能修改
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                <button id="confirmPlusDoCountId" type="button" class="btn btn-primary" data-dismiss="modal"
+                        onclick="plusDoCount()">确定
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+    /**
+     * 修改做题状态
+     * @param id 题目id
+     * @param status 状态
+     * @param title 状态名称
+     */
+    function changeStatus(id, status, title) {
+        var url = "/userProblem/changeStatus?salt=" + $("#salt").val();
+        url += "&id=" + id + "&status=" + status;
+        $.get(url, function (data, status) {
+            // alert("Data: " + data + "Status: " + status);
+            if (data == "ok") {
+                $("#statusBtn" + id).text(title);
+            } else {
+                alert(data);
+            }
+
+        });
+    }
+
+    /**
+     * 做题次数+1
+     * @param id 题目id
+     * @param status 状态
+     * @param title 状态名称
+     */
+    function plusDoCount() {
+        var id = $("#problemId").val();
+        var url = "/userProblem/plusDoCount?salt=" + $("#salt").val();
+        url += "&id=" + id;
+
+        $.get(url, function (data) {
+            // success
+            $("#doCount" + id).text(data.doCount);
+            $("#lastDoTime" + id).text(data.lastDoTime);
+        })
+            .fail(function (data) {
+                alert(data.responseText);
+            });
+    }
+
+    /**
+     * 询问做题次数是否+1
+     * @param id
+     */
+    function plusDoCountAsk(id) {
+        $("#problemId").val(id);
+    }
+</script>
+
+</body>
+</html>
