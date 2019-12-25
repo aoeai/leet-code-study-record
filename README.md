@@ -1,6 +1,8 @@
 # LeetCode 刷题记录 助力无毒神掌学习
 
 - 感谢覃超小魔王传授无毒学习法
+- [课程表](doc/markdown/class-chedule.md)
+- [课程表小助手](https://github.com/aoeai/lcsr-helper)
 
 ## [在线地址](https://leetcode.aoeai.com/)
 
