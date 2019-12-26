@@ -124,7 +124,7 @@ public class ProblemService {
         int start = (page.getCurrentNum() - 1) * pageSize;
         start = start < 0 ? 0 : start;
         int end = start + pageSize;
-        end = end > records.size() - 1? records.size() - 1: end;
+        end = end > records.size()? records.size(): end;
         end = end < 0 ? 0 : end;
 
         Pagination pagination = PageHelper.buildPagination(page, records.subList(start, end));
