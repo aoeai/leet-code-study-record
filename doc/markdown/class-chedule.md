@@ -95,3 +95,61 @@
 | [74](https://leetcode.com/problems/search-a-2d-matrix/discuss/?currentPage=1&orderBy=most_votes&query=) | [搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)| 🟡 中等 | 二分查找 | - |
 | [153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/discuss/?currentPage=1&orderBy=most_votes&query=) | [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)| 🟡 中等 | 二分查找 | - |
 
+## 第五周
+
+### 实战
+| 题号 | 名称 | 难度 | 分类 | 备注 |
+| --- | --- | --- | --- | --- |
+| [62](https://leetcode.com/problems/unique-paths/discuss/?currentPage=1&orderBy=most_votes&query=) | [不同路径](https://leetcode-cn.com/problems/unique-paths/)| 🟡 中等 | 动态规划 | - |
+| [63](https://leetcode.com/problems/unique-paths-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)| 🟡 中等 | 动态规划 | - |
+| [1143](https://leetcode.com/problems/longest-common-subsequence/discuss/?currentPage=1&orderBy=most_votes&query=) | [最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)| 🟡 中等 | 动态规划 | - |
+| [70](https://leetcode.com/problems/climbing-stairs/discuss/?currentPage=1&orderBy=most_votes&query=) | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)| 🟢 简单 | 动态规划 | - |
+| [120](https://leetcode.com/problems/triangle/discuss/?currentPage=1&orderBy=most_votes&query=) | [三角形最小路径和](https://leetcode-cn.com/problems/triangle/)| 🟡 中等 | 动态规划 | - |
+| [53](https://leetcode.com/problems/maximum-subarray/discuss/?currentPage=1&orderBy=most_votes&query=) | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)| 🟢 简单 | 动态规划 | - |
+| [152](https://leetcode.com/problems/maximum-product-subarray/discuss/?currentPage=1&orderBy=most_votes&query=) | [乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/)| 🟡 中等 | 动态规划 | - |
+| [322](https://leetcode.com/problems/coin-change/discuss/?currentPage=1&orderBy=most_votes&query=) | [零钱兑换](https://leetcode-cn.com/problems/coin-change/)| 🟡 中等 | 动态规划 | - |
+| [198](https://leetcode.com/problems/house-robber/discuss/?currentPage=1&orderBy=most_votes&query=) | [打家劫舍](https://leetcode-cn.com/problems/house-robber/)| 🟢 简单 | 动态规划 | - |
+| [213](https://leetcode.com/problems/house-robber-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)| 🟡 中等 | 动态规划 | - |
+| [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/?currentPage=1&orderBy=most_votes&query=) | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)| 🟢 简单 | 动态规划 | - |
+| [122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)| 🟢 简单 | 动态规划 | - |
+| [123](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/discuss/?currentPage=1&orderBy=most_votes&query=) | [买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)| 🔴️ 困难 | 动态规划 | - |
+| [309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/?currentPage=1&orderBy=most_votes&query=) | [最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)| 🟡 中等 | 动态规划 | - |
+| [188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/discuss/?currentPage=1&orderBy=most_votes&query=) | [买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)| 🔴️ 困难 | 动态规划 | - |
+| [714](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/?currentPage=1&orderBy=most_votes&query=) | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)| 🟡 中等 | 动态规划 | - |
+
+### 高级 DP 实战
+| 题号 | 名称 | 难度 | 分类 | 备注 |
+| --- | --- | --- | --- | --- |
+| [279](https://leetcode.com/problems/perfect-squares/discuss/?currentPage=1&orderBy=most_votes&query=) | [完全平方数](https://leetcode-cn.com/problems/perfect-squares/)| 🟡 中等 | 动态规划 | - |
+| [72](https://leetcode.com/problems/edit-distance/discuss/?currentPage=1&orderBy=most_votes&query=) | [编辑距离](https://leetcode-cn.com/problems/edit-distance/)| 🔴️ 困难 | 动态规划 | 重点|
+| [55](https://leetcode.com/problems/jump-game/discuss/?currentPage=1&orderBy=most_votes&query=) | [跳跃游戏](https://leetcode-cn.com/problems/jump-game/)| 🟡 中等 | 动态规划 | - |
+| [45](https://leetcode.com/problems/jump-game-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)| 🔴️ 困难 | 动态规划 | - |
+| [62](https://leetcode.com/problems/unique-paths/discuss/?currentPage=1&orderBy=most_votes&query=) | [不同路径](https://leetcode-cn.com/problems/unique-paths/)| 🟡 中等 | 动态规划 | - |
+| [63](https://leetcode.com/problems/unique-paths-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)| 🟡 中等 | 动态规划 | - |
+| [980](https://leetcode.com/problems/unique-paths-iii/discuss/?currentPage=1&orderBy=most_votes&query=) | [不同路径 III](https://leetcode-cn.com/problems/unique-paths-iii/)| 🔴️ 困难 | 动态规划 | - |
+| [322](https://leetcode.com/problems/coin-change/discuss/?currentPage=1&orderBy=most_votes&query=) | [零钱兑换](https://leetcode-cn.com/problems/coin-change/)| 🟡 中等 | 动态规划 | - |
+| [518](https://leetcode.com/problems/coin-change-2/discuss/?currentPage=1&orderBy=most_votes&query=) | [零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/)| 🟡 中等 | 动态规划 | - |
+
+### 课后作业
+| 题号 | 名称 | 难度 | 分类 | 备注 |
+| --- | --- | --- | --- | --- |
+| [32](https://leetcode.com/problems/longest-valid-parentheses/discuss/?currentPage=1&orderBy=most_votes&query=) | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)| 🔴️ 困难 | 动态规划 | - |
+| [64](https://leetcode.com/problems/minimum-path-sum/discuss/?currentPage=1&orderBy=most_votes&query=) | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)| 🟡 中等 | 动态规划 | - |
+| [72](https://leetcode.com/problems/edit-distance/discuss/?currentPage=1&orderBy=most_votes&query=) | [编辑距离](https://leetcode-cn.com/problems/edit-distance/)| 🔴️ 困难 | 动态规划 | - |
+| [91](https://leetcode.com/problems/decode-ways/discuss/?currentPage=1&orderBy=most_votes&query=) | [解码方法](https://leetcode-cn.com/problems/decode-ways/)| 🟡 中等 | 动态规划 | - |
+| [221](https://leetcode.com/problems/maximal-square/discuss/?currentPage=1&orderBy=most_votes&query=) | [最大正方形](https://leetcode-cn.com/problems/maximal-square/)| 🟡 中等 | 动态规划 | - |
+| [363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/discuss/?currentPage=1&orderBy=most_votes&query=) | [矩形区域不超过 K 的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)| 🔴️ 困难 | 动态规划 | - |
+| [403](https://leetcode.com/problems/frog-jump/discuss/?currentPage=1&orderBy=most_votes&query=) | [青蛙过河](https://leetcode-cn.com/problems/frog-jump/)| 🔴️ 困难 | 动态规划 | - |
+| [410](https://leetcode.com/problems/split-array-largest-sum/discuss/?currentPage=1&orderBy=most_votes&query=) | [分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/)| 🔴️ 困难 | 动态规划 | - |
+| [552](https://leetcode.com/problems/student-attendance-record-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [学生出勤记录 II](https://leetcode-cn.com/problems/student-attendance-record-ii/)| 🔴️ 困难 | 动态规划 | - |
+| [621](https://leetcode.com/problems/task-scheduler/discuss/?currentPage=1&orderBy=most_votes&query=) | [任务调度器](https://leetcode-cn.com/problems/task-scheduler/)| 🟡 中等 | 动态规划 | - |
+| [647](https://leetcode.com/problems/palindromic-substrings/discuss/?currentPage=1&orderBy=most_votes&query=) | [回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)| 🟡 中等 | 动态规划 | - |
+| [76](https://leetcode.com/problems/minimum-window-substring/discuss/?currentPage=1&orderBy=most_votes&query=) | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)| 🔴️ 困难 | 动态规划 | - |
+| [312](https://leetcode.com/problems/burst-balloons/discuss/?currentPage=1&orderBy=most_votes&query=) | [戳气球](https://leetcode-cn.com/problems/burst-balloons/)| 🔴️ 困难 | 动态规划 | - |
+
+### 补充学习
+- [MIT 动态规划课程最短路径算法](https://www.bilibili.com/video/av53233912?from=search&seid=2847395688604491997)
+
+### 优秀解答
+- [120. 三角形最小路径和](https://leetcode.com/problems/triangle/discuss/38735/Python-easy-to-understand-solutions-(top-down-bottom-up))
+- [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)
