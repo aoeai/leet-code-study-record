@@ -153,3 +153,40 @@
 ### 优秀解答
 - [120. 三角形最小路径和](https://leetcode.com/problems/triangle/discuss/38735/Python-easy-to-understand-solutions-(top-down-bottom-up))
 - [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)
+
+## 第六周
+
+### 实战
+| 题号 | 名称 | 难度 | 分类 | 备注 |
+| --- | --- | --- | --- | --- |
+| [208](https://leetcode.com/problems/implement-trie-prefix-tree/discuss/?currentPage=1&orderBy=most_votes&query=) | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)| 🟡 中等 | Trie树 | - |
+| [212](https://leetcode.com/problems/word-search-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)| 🔴️ 困难 | Trie树 | - |
+| [547](https://leetcode.com/problems/friend-circles/discuss/?currentPage=1&orderBy=most_votes&query=) | [朋友圈](https://leetcode-cn.com/problems/friend-circles/)| 🟡 中等 | 并查集 | - |
+| [200](https://leetcode.com/problems/number-of-islands/discuss/?currentPage=1&orderBy=most_votes&query=) | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)| 🟡 中等 | 并查集 | - |
+| [130](https://leetcode.com/problems/surrounded-regions/discuss/?currentPage=1&orderBy=most_votes&query=) | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)| 🟡 中等 | 并查集 | - |
+| [70](https://leetcode.com/problems/climbing-stairs/discuss/?currentPage=1&orderBy=most_votes&query=) | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)| 🟢 简单 | 剪枝 | - |
+| [22](https://leetcode.com/problems/generate-parentheses/discuss/?currentPage=1&orderBy=most_votes&query=) | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)| 🟡 中等 | 剪枝 | - |
+| [51](https://leetcode.com/problems/n-queens/discuss/?currentPage=1&orderBy=most_votes&query=) | [N皇后](https://leetcode-cn.com/problems/n-queens/)| 🔴️ 困难 | 剪枝 | - |
+| [36](https://leetcode.com/problems/valid-sudoku/discuss/?currentPage=1&orderBy=most_votes&query=) | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)| 🟡 中等 | 剪枝 | - |
+| [37](https://leetcode.com/problems/sudoku-solver/discuss/?currentPage=1&orderBy=most_votes&query=) | [解数独](https://leetcode-cn.com/problems/sudoku-solver/)| 🔴️ 困难 | 剪枝 | - |
+| [127](https://leetcode.com/problems/word-ladder/discuss/?currentPage=1&orderBy=most_votes&query=) | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)| 🟡 中等 | 双向BFS | - |
+| [433](https://leetcode.com/problems/minimum-genetic-mutation/discuss/?currentPage=1&orderBy=most_votes&query=) | [最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)| 🟡 中等 | 双向BFS | - |
+| [1091](https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/?currentPage=1&orderBy=most_votes&query=) | [二进制矩阵中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/)| 🟡 中等 | 启发式搜索 | - |
+| [773](https://leetcode.com/problems/sliding-puzzle/discuss/?currentPage=1&orderBy=most_votes&query=) | [滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/)| 🔴️ 困难 | 启发式搜索 | - |
+| [37](https://leetcode.com/problems/sudoku-solver/discuss/?currentPage=1&orderBy=most_votes&query=) | [解数独](https://leetcode-cn.com/problems/sudoku-solver/)| 🔴️ 困难 | 启发式搜索 | - |
+
+### 课后作业
+| 题号 | 名称 | 难度 | 分类 | 备注 |
+| --- | --- | --- | --- | --- |
+| [208](https://leetcode.com/problems/implement-trie-prefix-tree/discuss/?currentPage=1&orderBy=most_votes&query=) | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)| 🟡 中等 | 字典树、并查集 | - |
+| [547](https://leetcode.com/problems/friend-circles/discuss/?currentPage=1&orderBy=most_votes&query=) | [朋友圈](https://leetcode-cn.com/problems/friend-circles/)| 🟡 中等 | 字典树、并查集 | - |
+| [200](https://leetcode.com/problems/number-of-islands/discuss/?currentPage=1&orderBy=most_votes&query=) | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)| 🟡 中等 | 字典树、并查集 | - |
+| [130](https://leetcode.com/problems/surrounded-regions/discuss/?currentPage=1&orderBy=most_votes&query=) | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)| 🟡 中等 | 字典树、并查集 | - |
+| [212](https://leetcode.com/problems/word-search-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)| 🔴️ 困难 | 字典树、并查集 | - |
+| [70](https://leetcode.com/problems/climbing-stairs/discuss/?currentPage=1&orderBy=most_votes&query=) | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)| 🟢 简单 | 高级搜索 | - |
+| [36](https://leetcode.com/problems/valid-sudoku/discuss/?currentPage=1&orderBy=most_votes&query=) | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)| 🟡 中等 | 高级搜索 | - |
+| [22](https://leetcode.com/problems/generate-parentheses/discuss/?currentPage=1&orderBy=most_votes&query=) | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)| 🟡 中等 | 高级搜索 | - |
+| [127](https://leetcode.com/problems/word-ladder/discuss/?currentPage=1&orderBy=most_votes&query=) | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)| 🟡 中等 | 高级搜索 | - |
+| [433](https://leetcode.com/problems/minimum-genetic-mutation/discuss/?currentPage=1&orderBy=most_votes&query=) | [最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)| 🟡 中等 | 高级搜索 | - |
+| [51](https://leetcode.com/problems/n-queens/discuss/?currentPage=1&orderBy=most_votes&query=) | [N皇后](https://leetcode-cn.com/problems/n-queens/)| 🔴️ 困难 | 高级搜索 | - |
+| [37](https://leetcode.com/problems/sudoku-solver/discuss/?currentPage=1&orderBy=most_votes&query=) | [解数独](https://leetcode-cn.com/problems/sudoku-solver/)| 🔴️ 困难 | 高级搜索 | - |
