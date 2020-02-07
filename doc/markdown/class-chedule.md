@@ -1,5 +1,4 @@
 # 课程表
-
 ## 第一周
 ### 实战
 | 题号 | 名称 | 难度 | 分类 | 备注 |
@@ -82,8 +81,8 @@
 
 | 题号 | 名称 | 难度 | 分类 | 备注 |
 | --- | --- | --- | --- | --- |
-| [127](https://leetcode.com/problems/word-ladder/discuss/?currentPage=1&orderBy=most_votes&query=) | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)| 🟡 中等 | 深度优先、广度优先 | - |
-| [126](https://leetcode.com/problems/word-ladder-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)| 🔴 困难 | 深度优先、广度优先 | - |
+| [127](https://leetcode.com/problems/word-ladder/discuss/?currentPage=1&orderBy=most_votes&query=) | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)| 🟡 中等 | 深度优先、广度优先 | 硅谷高频 |
+| [126](https://leetcode.com/problems/word-ladder-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)| 🔴 困难 | 深度优先、广度优先 | 硅谷高频 |
 | [200](https://leetcode.com/problems/number-of-islands/discuss/?currentPage=1&orderBy=most_votes&query=) | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)| 🟡 中等 | 深度优先、广度优先 | - |
 | [529](https://leetcode.com/problems/minesweeper/discuss/?currentPage=1&orderBy=most_votes&query=) | [扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)| 🟡 中等 | 深度优先、广度优先 | - |
 | [860](https://leetcode.com/problems/lemonade-change/discuss/?currentPage=1&orderBy=most_votes&query=) | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)| 🟢 简单 | 贪心算法 | - |
@@ -155,7 +154,6 @@
 - [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)
 
 ## 第六周
-
 ### 实战
 | 题号 | 名称 | 难度 | 分类 | 备注 |
 | --- | --- | --- | --- | --- |
@@ -186,7 +184,24 @@
 | [70](https://leetcode.com/problems/climbing-stairs/discuss/?currentPage=1&orderBy=most_votes&query=) | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)| 🟢 简单 | 高级搜索 | - |
 | [36](https://leetcode.com/problems/valid-sudoku/discuss/?currentPage=1&orderBy=most_votes&query=) | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)| 🟡 中等 | 高级搜索 | - |
 | [22](https://leetcode.com/problems/generate-parentheses/discuss/?currentPage=1&orderBy=most_votes&query=) | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)| 🟡 中等 | 高级搜索 | - |
-| [127](https://leetcode.com/problems/word-ladder/discuss/?currentPage=1&orderBy=most_votes&query=) | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)| 🟡 中等 | 高级搜索 | - |
+| [127](https://leetcode.com/problems/word-ladder/discuss/?currentPage=1&orderBy=most_votes&query=) | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)| 🟡 中等 | 高级搜索 | 硅谷高频 |
 | [433](https://leetcode.com/problems/minimum-genetic-mutation/discuss/?currentPage=1&orderBy=most_votes&query=) | [最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)| 🟡 中等 | 高级搜索 | - |
 | [51](https://leetcode.com/problems/n-queens/discuss/?currentPage=1&orderBy=most_votes&query=) | [N皇后](https://leetcode-cn.com/problems/n-queens/)| 🔴️ 困难 | 高级搜索 | - |
 | [37](https://leetcode.com/problems/sudoku-solver/discuss/?currentPage=1&orderBy=most_votes&query=) | [解数独](https://leetcode-cn.com/problems/sudoku-solver/)| 🔴️ 困难 | 高级搜索 | - |
+
+## 第七周
+### 实战 / 课后作业
+| 题号 | 名称 | 难度 | 分类 | 备注 |
+| --- | --- | --- | --- | --- |
+| [191](https://leetcode.com/problems/number-of-1-bits/discuss/?currentPage=1&orderBy=most_votes&query=) | [位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)| 🟢 简单 | 位运算 | - |
+| [231](https://leetcode.com/problems/power-of-two/discuss/?currentPage=1&orderBy=most_votes&query=) | [2的幂](https://leetcode-cn.com/problems/power-of-two/)| 🟢 简单 | 位运算 | - |
+| [190](https://leetcode.com/problems/reverse-bits/discuss/?currentPage=1&orderBy=most_votes&query=) | [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)| 🟢 简单 | 位运算 | - |
+| [51](https://leetcode.com/problems/n-queens/discuss/?currentPage=1&orderBy=most_votes&query=) | [N皇后](https://leetcode-cn.com/problems/n-queens/)| 🔴️ 困难 | 位运算 | - |
+| [52](https://leetcode.com/problems/n-queens-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)| 🔴️ 困难 | 位运算 | - |
+| [338](https://leetcode.com/problems/counting-bits/discuss/?currentPage=1&orderBy=most_votes&query=) | [比特位计数](https://leetcode-cn.com/problems/counting-bits/)| 🟡 中等 | 位运算 | - |
+| [146](https://leetcode.com/problems/lru-cache/discuss/?currentPage=1&orderBy=most_votes&query=) | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)| 🟡 中等 | LRU Cache | - |
+| [1122](https://leetcode.com/problems/relative-sort-array/discuss/?currentPage=1&orderBy=most_votes&query=) | [数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)| 🟢 简单 | 排序 | - |
+| [242](https://leetcode.com/problems/valid-anagram/discuss/?currentPage=1&orderBy=most_votes&query=) | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)| 🟢 简单 | 排序 | - |
+| [1244](https://leetcode.com/problems/design-a-leaderboard/discuss/?currentPage=1&orderBy=most_votes&query=) | [力扣排行榜](https://leetcode-cn.com/problems/design-a-leaderboard/)| 🟡 中等 | 排序 | - |
+| [56](https://leetcode.com/problems/merge-intervals/discuss/?currentPage=1&orderBy=most_votes&query=) | [合并区间](https://leetcode-cn.com/problems/merge-intervals/)| 🟡 中等 | 排序 | - |
+| [493](https://leetcode.com/problems/reverse-pairs/discuss/?currentPage=1&orderBy=most_votes&query=) | [翻转对](https://leetcode-cn.com/problems/reverse-pairs/)| 🔴️ 困难 | 排序 | - |
