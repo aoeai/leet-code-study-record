@@ -205,3 +205,57 @@
 | [1244](https://leetcode.com/problems/design-a-leaderboard/discuss/?currentPage=1&orderBy=most_votes&query=) | [力扣排行榜](https://leetcode-cn.com/problems/design-a-leaderboard/)| 🟡 中等 | 排序 | - |
 | [56](https://leetcode.com/problems/merge-intervals/discuss/?currentPage=1&orderBy=most_votes&query=) | [合并区间](https://leetcode-cn.com/problems/merge-intervals/)| 🟡 中等 | 排序 | - |
 | [493](https://leetcode.com/problems/reverse-pairs/discuss/?currentPage=1&orderBy=most_votes&query=) | [翻转对](https://leetcode-cn.com/problems/reverse-pairs/)| 🔴️ 困难 | 排序 | - |
+
+## 第八周
+### 课后作业
+| 题号 | 名称 | 难度 | 分类 | 备注 |
+| --- | --- | --- | --- | --- |
+| [300](https://leetcode.com/problems/longest-increasing-subsequence/discuss/?currentPage=1&orderBy=most_votes&query=) | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)| 🟡 中等 | 高级动态规划 | - |
+| [91](https://leetcode.com/problems/decode-ways/discuss/?currentPage=1&orderBy=most_votes&query=) | [解码方法](https://leetcode-cn.com/problems/decode-ways/)| 🟡 中等 | 高级动态规划 | - |
+| [32](https://leetcode.com/problems/longest-valid-parentheses/discuss/?currentPage=1&orderBy=most_votes&query=) | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)| 🔴️ 困难 | 高级动态规划 | - |
+| [85](https://leetcode.com/problems/maximal-rectangle/discuss/?currentPage=1&orderBy=most_votes&query=) | [最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/)| 🔴️ 困难 | 高级动态规划 | - |
+| [115](https://leetcode.com/problems/distinct-subsequences/discuss/?currentPage=1&orderBy=most_votes&query=) | [不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/)| 🔴️ 困难 | 高级动态规划 | - |
+| [818](https://leetcode.com/problems/race-car/discuss/?currentPage=1&orderBy=most_votes&query=) | [赛车](https://leetcode-cn.com/problems/race-car/)| 🔴️ 困难 | 高级动态规划 | - |
+| [387](https://leetcode.com/problems/first-unique-character-in-a-string/discuss/?currentPage=1&orderBy=most_votes&query=) | [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)| 🟢 简单 | 字符串匹配 | - |
+| [8](https://leetcode.com/problems/string-to-integer-atoi/discuss/?currentPage=1&orderBy=most_votes&query=) | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)| 🟡 中等 | 字符串匹配 | - |
+| [541](https://leetcode.com/problems/reverse-string-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)| 🟢 简单 | 字符串匹配 | - |
+| [151](https://leetcode.com/problems/reverse-words-in-a-string/discuss/?currentPage=1&orderBy=most_votes&query=) | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)| 🟡 中等 | 字符串匹配 | - |
+| [557](https://leetcode.com/problems/reverse-words-in-a-string-iii/discuss/?currentPage=1&orderBy=most_votes&query=) | [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)| 🟢 简单 | 字符串匹配 | - |
+| [917](https://leetcode.com/problems/reverse-only-letters/discuss/?currentPage=1&orderBy=most_votes&query=) | [仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/)| 🟢 简单 | 字符串匹配 | - |
+| [438](https://leetcode.com/problems/find-all-anagrams-in-a-string/discuss/?currentPage=1&orderBy=most_votes&query=) | [找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)| 🟡 中等 | 字符串匹配 | - |
+| [5](https://leetcode.com/problems/longest-palindromic-substring/discuss/?currentPage=1&orderBy=most_votes&query=) | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)| 🟡 中等 | 字符串匹配 | - |
+| [205](https://leetcode.com/problems/isomorphic-strings/discuss/?currentPage=1&orderBy=most_votes&query=) | [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/)| 🟢 简单 | 字符串匹配 | - |
+| [680](https://leetcode.com/problems/valid-palindrome-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)| 🟢 简单 | 字符串匹配 | - |
+| [44](https://leetcode.com/problems/wildcard-matching/discuss/?currentPage=1&orderBy=most_votes&query=) | [通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/)| 🔴️ 困难 | 字符串匹配 | - |
+| [32](https://leetcode.com/problems/longest-valid-parentheses/discuss/?currentPage=1&orderBy=most_votes&query=) | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)| 🔴️ 困难 | 字符串匹配 | - |
+| [115](https://leetcode.com/problems/distinct-subsequences/discuss/?currentPage=1&orderBy=most_votes&query=) | [不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/)| 🔴️ 困难 | 字符串匹配 | - |
+
+
+### 实战
+| 题号 | 名称 | 难度 | 分类 | 备注 |
+| --- | --- | --- | --- | --- |
+| [709](https://leetcode.com/problems/to-lower-case/discuss/?currentPage=1&orderBy=most_votes&query=) | [转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/)| 🟢 简单 | 字符串基础 | - |
+| [58](https://leetcode.com/problems/length-of-last-word/discuss/?currentPage=1&orderBy=most_votes&query=) | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)| 🟢 简单 | 字符串基础 | - |
+| [771](https://leetcode.com/problems/jewels-and-stones/discuss/?currentPage=1&orderBy=most_votes&query=) | [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)| 🟢 简单 | 字符串基础 | - |
+| [387](https://leetcode.com/problems/first-unique-character-in-a-string/discuss/?currentPage=1&orderBy=most_votes&query=) | [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)| 🟢 简单 | 字符串基础 | - |
+| [8](https://leetcode.com/problems/string-to-integer-atoi/discuss/?currentPage=1&orderBy=most_votes&query=) | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)| 🟡 中等 | 字符串基础 | - |
+| [14](https://leetcode.com/problems/longest-common-prefix/discuss/?currentPage=1&orderBy=most_votes&query=) | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)| 🟢 简单 | 字符串操作问题 | - |
+| [344](https://leetcode.com/problems/reverse-string/discuss/?currentPage=1&orderBy=most_votes&query=) | [反转字符串](https://leetcode-cn.com/problems/reverse-string/)| 🟢 简单 | 字符串操作问题 | - |
+| [541](https://leetcode.com/problems/reverse-string-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)| 🟢 简单 | 字符串操作问题 | - |
+| [151](https://leetcode.com/problems/reverse-words-in-a-string/discuss/?currentPage=1&orderBy=most_votes&query=) | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)| 🟡 中等 | 字符串操作问题 | - |
+| [557](https://leetcode.com/problems/reverse-words-in-a-string-iii/discuss/?currentPage=1&orderBy=most_votes&query=) | [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)| 🟢 简单 | 字符串操作问题 | - |
+| [917](https://leetcode.com/problems/reverse-only-letters/discuss/?currentPage=1&orderBy=most_votes&query=) | [仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/)| 🟢 简单 | 字符串操作问题 | - |
+| [242](https://leetcode.com/problems/valid-anagram/discuss/?currentPage=1&orderBy=most_votes&query=) | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)| 🟢 简单 | 异位词问题 | - |
+| [49](https://leetcode.com/problems/group-anagrams/discuss/?currentPage=1&orderBy=most_votes&query=) | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)| 🟡 中等 | 异位词问题 | - |
+| [438](https://leetcode.com/problems/find-all-anagrams-in-a-string/discuss/?currentPage=1&orderBy=most_votes&query=) | [找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)| 🟡 中等 | 异位词问题 | - |
+| [125](https://leetcode.com/problems/valid-palindrome/discuss/?currentPage=1&orderBy=most_votes&query=) | [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)| 🟢 简单 | 回文串问题 | - |
+| [680](https://leetcode.com/problems/valid-palindrome-ii/discuss/?currentPage=1&orderBy=most_votes&query=) | [验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)| 🟢 简单 | 回文串问题 | - |
+| [5](https://leetcode.com/problems/longest-palindromic-substring/discuss/?currentPage=1&orderBy=most_votes&query=) | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)| 🟡 中等 | 回文串问题 | - |
+| [1143](https://leetcode.com/problems/longest-common-subsequence/discuss/?currentPage=1&orderBy=most_votes&query=) | [最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)| 🟡 中等 | 最长子串、子序列问题 | - |
+| [72](https://leetcode.com/problems/edit-distance/discuss/?currentPage=1&orderBy=most_votes&query=) | [编辑距离](https://leetcode-cn.com/problems/edit-distance/)| 🔴️ 困难 | 最长子串、子序列问题 | - |
+| [5](https://leetcode.com/problems/longest-palindromic-substring/discuss/?currentPage=1&orderBy=most_votes&query=) | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)| 🟡 中等 | 最长子串、子序列问题 | - |
+| [10](https://leetcode.com/problems/regular-expression-matching/discuss/?currentPage=1&orderBy=most_votes&query=) | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)| 🔴️ 困难 | 字符串 +DP 问题 | - |
+| [10](https://leetcode.com/problems/regular-expression-matching/discuss/?currentPage=1&orderBy=most_votes&query=) | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)| 🔴️ 困难 | 字符串 +DP 问题 | - |
+| [44](https://leetcode.com/problems/wildcard-matching/discuss/?currentPage=1&orderBy=most_votes&query=) | [通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/)| 🔴️ 困难 | 字符串 +DP 问题 | - |
+| [115](https://leetcode.com/problems/distinct-subsequences/discuss/?currentPage=1&orderBy=most_votes&query=) | [不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/)| 🔴️ 困难 | 字符串 +DP 问题 | - |
+
